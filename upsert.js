@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/map/upsert');
+module.exports = require('../../full/weak-map/upsert');

@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/set/some');
+module.exports = require('../../full/typed-array/some');

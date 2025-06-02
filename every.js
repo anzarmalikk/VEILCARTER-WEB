@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/set/every');
+module.exports = require('../../full/typed-array/every');

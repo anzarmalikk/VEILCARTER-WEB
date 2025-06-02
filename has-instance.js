@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/function/has-instance');
+module.exports = require('../../full/symbol/has-instance');

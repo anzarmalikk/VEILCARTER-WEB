@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/async-iterator/async-dispose');
+module.exports = require('../../full/symbol/async-dispose');

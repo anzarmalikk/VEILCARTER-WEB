@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/set/of');
+module.exports = require('../../full/weak-map/of');

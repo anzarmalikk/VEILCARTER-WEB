@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/iterator/dispose');
+module.exports = require('../../full/symbol/dispose');

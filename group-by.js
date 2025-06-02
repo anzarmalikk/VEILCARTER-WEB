@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/object/group-by');
+module.exports = require('../../full/typed-array/group-by');

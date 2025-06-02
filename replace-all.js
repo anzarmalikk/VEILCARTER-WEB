@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../../full/string/virtual/replace-all');
+module.exports = require('../../full/symbol/replace-all');

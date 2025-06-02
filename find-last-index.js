@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/instance/find-last-index');
+module.exports = require('../../full/typed-array/find-last-index');

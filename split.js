@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/string/split');
+module.exports = require('../../full/symbol/split');

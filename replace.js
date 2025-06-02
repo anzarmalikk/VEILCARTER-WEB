@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/string/replace');
+module.exports = require('../../full/symbol/replace');

@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/string/blink');
+module.exports = require('../../../full/string/virtual/blink');
