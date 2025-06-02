@@ -1,2 +1,5 @@
 'use strict';
-module.exports = require('../../full/math/seeded-prng');
+require('../../modules/esnext.math.seeded-prng');
+var path = require('../../internals/path');
+
+module.exports = path.Math.seededPRNG;

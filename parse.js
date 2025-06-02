@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/url/parse');
+var parent = require('../../actual/json/parse');
+
+module.exports = parent;

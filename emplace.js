@@ -1,2 +1,6 @@
 'use strict';
-module.exports = require('../../full/weak-map/emplace');
+require('../../modules/es.map');
+require('../../modules/esnext.map.emplace');
+var entryUnbind = require('../../internals/entry-unbind');
+
+module.exports = entryUnbind('Map', 'emplace');

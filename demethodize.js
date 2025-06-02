@@ -1,5 +1,10 @@
 'use strict';
-require('../../../modules/esnext.function.demethodize');
-var getBuiltInPrototypeMethod = require('../../../internals/get-built-in-prototype-method');
+var isPrototypeOf = require('../../internals/object-is-prototype-of');
+var method = require('../function/virtual/demethodize');
 
-module.exports = getBuiltInPrototypeMethod('Function', 'demethodize');
+var FunctionPrototype = Function.prototype;
+
+module.exports = function (it) {
+  var own = it.demethodize;
+  return it === FunctionPrototype || (isPrototypeOf(FunctionPrototype, it) && own === FunctionPrototype.demethodize) ? method : own;
+};

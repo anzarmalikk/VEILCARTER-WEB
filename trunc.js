@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/math/trunc');
+var parent = require('../../actual/math/trunc');
+
+module.exports = parent;

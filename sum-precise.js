@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/math/sum-precise');
+var parent = require('../../actual/math/sum-precise');
+
+module.exports = parent;

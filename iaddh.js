@@ -1,2 +1,5 @@
 'use strict';
-module.exports = require('../../full/math/iaddh');
+require('../../modules/esnext.math.iaddh');
+var path = require('../../internals/path');
+
+module.exports = path.Math.iaddh;

@@ -1,4 +1,6 @@
 'use strict';
-var parent = require('../../actual/instance/reduce');
+require('../../modules/es.map');
+require('../../modules/esnext.map.reduce');
+var entryUnbind = require('../../internals/entry-unbind');
 
-module.exports = parent;
+module.exports = entryUnbind('Map', 'reduce');

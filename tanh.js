@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/math/tanh');
+var parent = require('../../actual/math/tanh');
+
+module.exports = parent;

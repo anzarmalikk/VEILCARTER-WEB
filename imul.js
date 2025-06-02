@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/math/imul');
+var parent = require('../../actual/math/imul');
+
+module.exports = parent;

@@ -1,2 +1,6 @@
 'use strict';
-module.exports = require('../../full/weak-map/get-or-insert');
+require('../../modules/es.map');
+require('../../modules/esnext.map.get-or-insert');
+var entryUnbind = require('../../internals/entry-unbind');
+
+module.exports = entryUnbind('Map', 'getOrInsert');

@@ -1,4 +1,6 @@
 'use strict';
-var parent = require('../../actual/instance/filter');
+require('../../modules/es.map');
+require('../../modules/esnext.map.filter');
+var entryUnbind = require('../../internals/entry-unbind');
 
-module.exports = parent;
+module.exports = entryUnbind('Map', 'filter');

@@ -1,2 +1,5 @@
 'use strict';
-module.exports = require('../../full/math/umulh');
+require('../../modules/esnext.math.umulh');
+var path = require('../../internals/path');
+
+module.exports = path.Math.umulh;

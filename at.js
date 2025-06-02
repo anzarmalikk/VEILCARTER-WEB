@@ -1,7 +1,15 @@
 'use strict';
-var parent = require('../../../actual/array/virtual/at');
+var isPrototypeOf = require('../../internals/object-is-prototype-of');
+var arrayMethod = require('../array/virtual/at');
+var stringMethod = require('../string/virtual/at');
 
-// TODO: Remove from `core-js@4`
-require('../../../modules/esnext.array.at');
+var ArrayPrototype = Array.prototype;
+var StringPrototype = String.prototype;
 
-module.exports = parent;
+module.exports = function (it) {
+  var own = it.at;
+  if (it === ArrayPrototype || (isPrototypeOf(ArrayPrototype, it) && own === ArrayPrototype.at)) return arrayMethod;
+  if (typeof it == 'string' || it === StringPrototype || (isPrototypeOf(StringPrototype, it) && own === StringPrototype.at)) {
+    return stringMethod;
+  } return own;
+};

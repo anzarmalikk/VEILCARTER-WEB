@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../actual/async-iterator/flat-map');
+var parent = require('../../actual/iterator/flat-map');
 
 module.exports = parent;

@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/math/f16round');
+var parent = require('../../actual/math/f16round');
+
+module.exports = parent;

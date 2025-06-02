@@ -1,2 +1,5 @@
 'use strict';
-module.exports = require('../../full/math/scale');
+require('../../modules/esnext.math.scale');
+var path = require('../../internals/path');
+
+module.exports = path.Math.scale;

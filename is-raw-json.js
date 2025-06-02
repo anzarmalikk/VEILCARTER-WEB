@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/json/is-raw-json');
+var parent = require('../../actual/json/is-raw-json');
+
+module.exports = parent;

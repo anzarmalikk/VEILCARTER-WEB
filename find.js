@@ -1,4 +1,6 @@
 'use strict';
-var parent = require('../../actual/instance/find');
+require('../../modules/es.map');
+require('../../modules/esnext.map.find');
+var entryUnbind = require('../../internals/entry-unbind');
 
-module.exports = parent;
+module.exports = entryUnbind('Map', 'find');

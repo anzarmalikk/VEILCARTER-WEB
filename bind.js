@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../../actual/function/virtual/bind');
+var parent = require('../../actual/instance/bind');
 
 module.exports = parent;

@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../../full/string/virtual/code-point-at');
+var parent = require('../../actual/instance/code-point-at');
+
+module.exports = parent;

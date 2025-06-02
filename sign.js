@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/math/sign');
+var parent = require('../../actual/math/sign');
+
+module.exports = parent;

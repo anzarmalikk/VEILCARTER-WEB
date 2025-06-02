@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/math/acosh');
+var parent = require('../../actual/math/acosh');
+
+module.exports = parent;

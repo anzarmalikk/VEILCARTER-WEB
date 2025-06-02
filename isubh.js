@@ -1,2 +1,5 @@
 'use strict';
-module.exports = require('../../full/math/isubh');
+require('../../modules/esnext.math.isubh');
+var path = require('../../internals/path');
+
+module.exports = path.Math.isubh;

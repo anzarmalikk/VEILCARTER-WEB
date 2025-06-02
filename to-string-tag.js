@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../actual/dom-exception/to-string-tag');
+var parent = require('../../actual/math/to-string-tag');
 
 module.exports = parent;

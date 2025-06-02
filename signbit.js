@@ -1,2 +1,5 @@
 'use strict';
-module.exports = require('../../full/math/signbit');
+require('../../modules/esnext.math.signbit');
+var path = require('../../internals/path');
+
+module.exports = path.Math.signbit;

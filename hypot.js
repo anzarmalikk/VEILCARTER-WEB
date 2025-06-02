@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/math/hypot');
+var parent = require('../../actual/math/hypot');
+
+module.exports = parent;

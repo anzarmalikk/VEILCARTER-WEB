@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../../actual/array/virtual/copy-within');
+var parent = require('../../actual/instance/copy-within');
 
 module.exports = parent;
