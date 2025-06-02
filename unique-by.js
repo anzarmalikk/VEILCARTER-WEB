@@ -1,6 +1,6 @@
 'use strict';
-require('../../modules/es.map');
-require('../../modules/esnext.array.unique-by');
-var entryUnbind = require('../../internals/entry-unbind');
+require('../../../modules/es.map');
+require('../../../modules/esnext.array.unique-by');
+var getBuiltInPrototypeMethod = require('../../../internals/get-built-in-prototype-method');
 
-module.exports = entryUnbind('Array', 'uniqueBy');
+module.exports = getBuiltInPrototypeMethod('Array', 'uniqueBy');

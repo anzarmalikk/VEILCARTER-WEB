@@ -1,5 +1,5 @@
 'use strict';
-require('../../modules/esnext.array.filter-reject');
-var entryUnbind = require('../../internals/entry-unbind');
+require('../../../modules/esnext.array.filter-reject');
+var getBuiltInPrototypeMethod = require('../../../internals/get-built-in-prototype-method');
 
-module.exports = entryUnbind('Array', 'filterReject');
+module.exports = getBuiltInPrototypeMethod('Array', 'filterReject');

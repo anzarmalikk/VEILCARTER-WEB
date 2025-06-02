@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../actual/array/concat');
+var parent = require('../../../actual/array/virtual/concat');
 
 module.exports = parent;

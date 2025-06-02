@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../actual/array/filter');
+var parent = require('../../../actual/array/virtual/filter');
 
 module.exports = parent;
