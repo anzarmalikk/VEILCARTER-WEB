@@ -1,4 +1,9 @@
 'use strict';
-var parent = require('../../actual/json/is-raw-json');
+var isObject = require('../internals/is-object');
+var getInternalState = require('../internals/internal-state').get;
 
-module.exports = parent;
+module.exports = function isRawJSON(O) {
+  if (!isObject(O)) return false;
+  var state = getInternalState(O);
+  return !!state && state.type === 'RawJSON';
+};
