@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../full/get-iterator-method');
+var parent = require('../actual/get-iterator-method');
+
+module.exports = parent;

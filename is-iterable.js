@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../full/is-iterable');
+var parent = require('../actual/is-iterable');
+
+module.exports = parent;

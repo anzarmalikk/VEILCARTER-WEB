@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../full/atob');
+var parent = require('../actual/atob');
+
+module.exports = parent;

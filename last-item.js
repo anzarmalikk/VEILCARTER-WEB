@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/array/last-item');
+require('../../modules/esnext.array.last-item');

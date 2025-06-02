@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/iterator/concat');
+var parent = require('../../actual/array/concat');
+
+module.exports = parent;

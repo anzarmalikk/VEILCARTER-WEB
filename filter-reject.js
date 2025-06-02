@@ -1,2 +1,5 @@
 'use strict';
-module.exports = require('../../full/typed-array/filter-reject');
+require('../../modules/esnext.array.filter-reject');
+var entryUnbind = require('../../internals/entry-unbind');
+
+module.exports = entryUnbind('Array', 'filterReject');

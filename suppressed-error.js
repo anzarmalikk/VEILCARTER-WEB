@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../full/suppressed-error');
+var parent = require('../actual/suppressed-error');
+
+module.exports = parent;

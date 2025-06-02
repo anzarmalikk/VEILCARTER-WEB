@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/typed-array/reduce-right');
+var parent = require('../../actual/array/reduce-right');
+
+module.exports = parent;

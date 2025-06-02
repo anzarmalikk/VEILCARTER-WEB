@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/typed-array/group-by');
+var parent = require('../../actual/array/group-by');
+
+module.exports = parent;

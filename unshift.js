@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/instance/unshift');
+var parent = require('../../actual/array/unshift');
+
+module.exports = parent;

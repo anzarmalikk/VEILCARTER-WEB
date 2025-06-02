@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/weak-set/from');
+var parent = require('../../actual/array/from');
+
+module.exports = parent;

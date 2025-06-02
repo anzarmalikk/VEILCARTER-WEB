@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../full/set-interval');
+var parent = require('../actual/set-interval');
+
+module.exports = parent;

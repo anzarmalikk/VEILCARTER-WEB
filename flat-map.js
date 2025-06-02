@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/iterator/flat-map');
+var parent = require('../../actual/array/flat-map');
+
+module.exports = parent;

@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/typed-array/find-last-index');
+var parent = require('../../actual/array/find-last-index');
+
+module.exports = parent;

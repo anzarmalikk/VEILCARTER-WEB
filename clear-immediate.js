@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../full/clear-immediate');
+var parent = require('../actual/clear-immediate');
+
+module.exports = parent;

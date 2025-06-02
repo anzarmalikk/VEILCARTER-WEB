@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../full/structured-clone');
+var parent = require('../actual/structured-clone');
+
+module.exports = parent;

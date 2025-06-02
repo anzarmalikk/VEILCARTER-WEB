@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/instance/group-to-map');
+var parent = require('../../actual/array/group-to-map');
+
+module.exports = parent;

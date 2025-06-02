@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/array/last-index');
+require('../../modules/esnext.array.last-index');

@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/typed-array/find-last');
+var parent = require('../../actual/array/find-last');
+
+module.exports = parent;

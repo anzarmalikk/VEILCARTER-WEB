@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/typed-array/to-spliced');
+var parent = require('../../actual/array/to-spliced');
+
+module.exports = parent;

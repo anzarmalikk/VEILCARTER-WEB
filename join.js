@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/typed-array/join');
+var parent = require('../../actual/array/join');
+
+module.exports = parent;

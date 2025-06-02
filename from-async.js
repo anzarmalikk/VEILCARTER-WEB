@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/typed-array/from-async');
+var parent = require('../../actual/array/from-async');
+
+module.exports = parent;

@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/typed-array/with');
+var parent = require('../../actual/array/with');
+
+module.exports = parent;

@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/instance/flat');
+var parent = require('../../actual/array/flat');
+
+module.exports = parent;
