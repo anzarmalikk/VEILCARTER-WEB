@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/instance/keys');
+module.exports = require('../../full/object/keys');

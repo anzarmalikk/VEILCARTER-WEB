@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/map/group-by');
+module.exports = require('../../full/object/group-by');

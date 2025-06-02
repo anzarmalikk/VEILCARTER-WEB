@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/error/to-string');
+module.exports = require('../../full/object/to-string');
