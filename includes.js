@@ -1,6 +1,4 @@
 'use strict';
-require('../../modules/es.map');
-require('../../modules/esnext.map.includes');
-var entryUnbind = require('../../internals/entry-unbind');
+var parent = require('../../../actual/string/virtual/includes');
 
-module.exports = entryUnbind('Map', 'includes');
+module.exports = parent;

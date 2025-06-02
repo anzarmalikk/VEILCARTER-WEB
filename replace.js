@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../actual/regexp/replace');
+var parent = require('../../actual/string/replace');
 
 module.exports = parent;

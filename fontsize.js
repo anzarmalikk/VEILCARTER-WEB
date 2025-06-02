@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../../full/string/virtual/fontsize');
+var parent = require('../../../actual/string/virtual/fontsize');
+
+module.exports = parent;

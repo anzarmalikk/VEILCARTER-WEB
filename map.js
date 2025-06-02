@@ -1,4 +1,6 @@
 'use strict';
-var parent = require('../../actual/iterator/map');
+require('../../modules/es.set');
+require('../../modules/esnext.set.map');
+var entryUnbind = require('../../internals/entry-unbind');
 
-module.exports = parent;
+module.exports = entryUnbind('Set', 'map');

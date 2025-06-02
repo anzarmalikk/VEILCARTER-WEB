@@ -1,6 +1,6 @@
 'use strict';
-require('../../modules/es.map');
-require('../../modules/esnext.map.delete-all');
+require('../../modules/es.set');
+require('../../modules/esnext.set.delete-all');
 var entryUnbind = require('../../internals/entry-unbind');
 
-module.exports = entryUnbind('Map', 'deleteAll');
+module.exports = entryUnbind('Set', 'deleteAll');

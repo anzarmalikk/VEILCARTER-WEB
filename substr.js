@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../../full/string/virtual/substr');
+var parent = require('../../../actual/string/virtual/substr');
+
+module.exports = parent;

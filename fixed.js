@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../../full/string/virtual/fixed');
+var parent = require('../../../actual/string/virtual/fixed');
+
+module.exports = parent;

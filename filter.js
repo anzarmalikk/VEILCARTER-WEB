@@ -1,6 +1,6 @@
 'use strict';
-require('../../modules/es.map');
-require('../../modules/esnext.map.filter');
+require('../../modules/es.set');
+require('../../modules/esnext.set.filter');
 var entryUnbind = require('../../internals/entry-unbind');
 
-module.exports = entryUnbind('Map', 'filter');
+module.exports = entryUnbind('Set', 'filter');

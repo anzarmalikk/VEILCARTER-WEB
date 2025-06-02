@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../../full/string/virtual/fontcolor');
+var parent = require('../../../actual/string/virtual/fontcolor');
+
+module.exports = parent;

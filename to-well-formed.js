@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../actual/instance/to-well-formed');
+var parent = require('../../../actual/string/virtual/to-well-formed');
 
 module.exports = parent;

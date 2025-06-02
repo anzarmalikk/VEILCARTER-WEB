@@ -1,11 +1,6 @@
 'use strict';
-var isPrototypeOf = require('../../internals/object-is-prototype-of');
-var method = require('../string/virtual/code-points');
+require('../../../modules/es.object.to-string');
+require('../../../modules/esnext.string.code-points');
+var getBuiltInPrototypeMethod = require('../../../internals/get-built-in-prototype-method');
 
-var StringPrototype = String.prototype;
-
-module.exports = function (it) {
-  var own = it.codePoints;
-  return typeof it == 'string' || it === StringPrototype
-    || (isPrototypeOf(StringPrototype, it) && own === StringPrototype.codePoints) ? method : own;
-};
+module.exports = getBuiltInPrototypeMethod('String', 'codePoints');
