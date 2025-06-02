@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/object/entries');
+module.exports = require('../../full/typed-array/entries');

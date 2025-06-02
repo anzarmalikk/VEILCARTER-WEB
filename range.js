@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/number/range');
+module.exports = require('../../full/bigint/range');

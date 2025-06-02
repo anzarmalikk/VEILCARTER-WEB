@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/typed-array/from');
+module.exports = require('../../full/weak-set/from');

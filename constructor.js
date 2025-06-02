@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/regexp/constructor');
+module.exports = require('../../full/disposable-stack/constructor');

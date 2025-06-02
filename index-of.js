@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/instance/index-of');
+module.exports = require('../../full/typed-array/index-of');

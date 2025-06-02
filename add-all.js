@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/set/add-all');
+module.exports = require('../../full/weak-set/add-all');

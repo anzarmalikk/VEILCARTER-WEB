@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/typed-array/iterator');
+module.exports = require('../../full/dom-collections/iterator');

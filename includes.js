@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../../full/string/virtual/includes');
+module.exports = require('../../full/typed-array/includes');

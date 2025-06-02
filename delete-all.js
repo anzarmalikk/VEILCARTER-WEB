@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/weak-map/delete-all');
+module.exports = require('../../full/weak-set/delete-all');
