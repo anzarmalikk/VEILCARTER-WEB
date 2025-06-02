@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/instance/filter');
+module.exports = require('../../full/map/filter');

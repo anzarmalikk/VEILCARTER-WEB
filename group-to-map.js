@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../../full/array/virtual/group-to-map');
+module.exports = require('../../full/instance/group-to-map');

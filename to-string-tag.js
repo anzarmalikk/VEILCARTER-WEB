@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/dom-exception/to-string-tag');
+module.exports = require('../../full/math/to-string-tag');

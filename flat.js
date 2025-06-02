@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../../full/array/virtual/flat');
+module.exports = require('../../full/instance/flat');

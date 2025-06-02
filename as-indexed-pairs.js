@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/async-iterator/as-indexed-pairs');
+module.exports = require('../../full/iterator/as-indexed-pairs');

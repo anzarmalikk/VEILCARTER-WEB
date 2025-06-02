@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../../full/array/virtual/includes');
+module.exports = require('../../full/map/includes');

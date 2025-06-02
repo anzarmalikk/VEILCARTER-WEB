@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/instance/every');
+module.exports = require('../../full/map/every');

@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../../full/array/virtual/copy-within');
+module.exports = require('../../full/instance/copy-within');

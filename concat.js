@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../../full/array/virtual/concat');
+module.exports = require('../../full/iterator/concat');
