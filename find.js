@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../../full/array/virtual/find');
+module.exports = require('../../full/async-iterator/find');

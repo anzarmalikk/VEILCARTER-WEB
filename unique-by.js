@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../../full/array/virtual/unique-by');
+module.exports = require('../../full/instance/unique-by');

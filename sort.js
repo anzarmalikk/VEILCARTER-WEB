@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../../full/array/virtual/sort');
+module.exports = require('../../full/instance/sort');

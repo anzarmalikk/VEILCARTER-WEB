@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../../full/array/virtual/map');
+module.exports = require('../../full/instance/map');

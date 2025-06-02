@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../../full/array/virtual/flat-map');
+module.exports = require('../../full/async-iterator/flat-map');

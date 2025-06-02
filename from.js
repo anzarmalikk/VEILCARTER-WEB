@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/array/from');
+module.exports = require('../../full/async-iterator/from');

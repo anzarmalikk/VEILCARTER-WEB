@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/array/at');
+module.exports = require('../../../full/array/virtual/at');

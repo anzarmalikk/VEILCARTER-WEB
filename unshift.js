@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../../full/array/virtual/unshift');
+module.exports = require('../../full/instance/unshift');
