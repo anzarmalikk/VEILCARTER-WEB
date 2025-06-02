@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/map/of');
+module.exports = require('../../full/set/of');

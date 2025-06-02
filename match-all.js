@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/instance/match-all');
+module.exports = require('../../../full/string/virtual/match-all');

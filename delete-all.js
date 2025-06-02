@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/map/delete-all');
+module.exports = require('../../full/set/delete-all');

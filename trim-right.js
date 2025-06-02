@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/instance/trim-right');
+module.exports = require('../../../full/string/virtual/trim-right');

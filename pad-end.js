@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/instance/pad-end');
+module.exports = require('../../../full/string/virtual/pad-end');

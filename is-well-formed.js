@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/instance/is-well-formed');
+module.exports = require('../../../full/string/virtual/is-well-formed');

@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/map/every');
+module.exports = require('../../full/set/every');

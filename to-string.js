@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/object/to-string');
+module.exports = require('../../full/regexp/to-string');
