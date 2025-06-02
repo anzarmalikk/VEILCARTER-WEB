@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/symbol/async-iterator');
+var parent = require('../../actual/symbol/async-iterator');
+
+module.exports = parent;

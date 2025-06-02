@@ -1,2 +1,5 @@
 'use strict';
-module.exports = require('../../full/symbol/custom-matcher');
+require('../../modules/esnext.symbol.custom-matcher');
+var WrappedWellKnownSymbolModule = require('../../internals/well-known-symbol-wrapped');
+
+module.exports = WrappedWellKnownSymbolModule.f('customMatcher');

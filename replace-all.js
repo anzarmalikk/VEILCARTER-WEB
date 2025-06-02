@@ -1,7 +1,6 @@
 'use strict';
-// TODO: remove from `core-js@4`
-require('../../../modules/esnext.string.replace-all');
+// TODO: Remove from `core-js@4`
+require('../../modules/esnext.symbol.replace-all');
+var WrappedWellKnownSymbolModule = require('../../internals/well-known-symbol-wrapped');
 
-var parent = require('../../../actual/string/virtual/replace-all');
-
-module.exports = parent;
+module.exports = WrappedWellKnownSymbolModule.f('replaceAll');

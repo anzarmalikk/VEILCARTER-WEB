@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/typed-array/to-locale-string');
+var parent = require('../../actual/typed-array/to-locale-string');
+
+module.exports = parent;

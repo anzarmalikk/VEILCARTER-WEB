@@ -1,6 +1,4 @@
 'use strict';
-require('../../modules/es.set');
-require('../../modules/esnext.set.every');
-var entryUnbind = require('../../internals/entry-unbind');
+var parent = require('../../actual/typed-array/every');
 
-module.exports = entryUnbind('Set', 'every');
+module.exports = parent;

@@ -1,6 +1,4 @@
 'use strict';
-require('../../modules/es.set');
-require('../../modules/esnext.set.filter');
-var entryUnbind = require('../../internals/entry-unbind');
+var parent = require('../../actual/typed-array/filter');
 
-module.exports = entryUnbind('Set', 'filter');
+module.exports = parent;

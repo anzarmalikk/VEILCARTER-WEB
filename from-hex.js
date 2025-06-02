@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/typed-array/from-hex');
+var parent = require('../../actual/typed-array/from-hex');
+
+module.exports = parent;

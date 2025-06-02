@@ -1,6 +1,4 @@
 'use strict';
-require('../../modules/es.set');
-require('../../modules/esnext.set.join');
-var entryUnbind = require('../../internals/entry-unbind');
+var parent = require('../../actual/typed-array/join');
 
-module.exports = entryUnbind('Set', 'join');
+module.exports = parent;

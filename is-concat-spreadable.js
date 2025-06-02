@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/symbol/is-concat-spreadable');
+var parent = require('../../actual/symbol/is-concat-spreadable');
+
+module.exports = parent;

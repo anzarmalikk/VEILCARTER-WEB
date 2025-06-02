@@ -1,4 +1,2 @@
 'use strict';
-var parent = require('../../actual/array/from-async');
-
-module.exports = parent;
+require('../../modules/esnext.typed-array.from-async');

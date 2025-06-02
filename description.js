@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/symbol/description');
+require('../../modules/es.symbol.description');

@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../actual/iterator/dispose');
+var parent = require('../../actual/symbol/dispose');
 
 module.exports = parent;

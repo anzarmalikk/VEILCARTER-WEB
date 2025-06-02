@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../actual/instance/fill');
+var parent = require('../../actual/typed-array/fill');
 
 module.exports = parent;

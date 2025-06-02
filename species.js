@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/symbol/species');
+var parent = require('../../actual/symbol/species');
+
+module.exports = parent;

@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../actual/date/to-json');
+var parent = require('../../actual/url/to-json');
 
 module.exports = parent;

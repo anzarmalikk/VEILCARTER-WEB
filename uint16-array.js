@@ -1,2 +1,5 @@
 'use strict';
-module.exports = require('../../full/typed-array/uint16-array');
+var parent = require('../../actual/typed-array/uint16-array');
+require('../../full/typed-array/methods');
+
+module.exports = parent;

@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/typed-array/to-base64');
+var parent = require('../../actual/typed-array/to-base64');
+
+module.exports = parent;

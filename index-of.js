@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../actual/instance/index-of');
+var parent = require('../../actual/typed-array/index-of');
 
 module.exports = parent;

@@ -1,10 +1,14 @@
 'use strict';
-var parent = require('../../../actual/string/virtual');
-// TODO: remove from `core-js@4`
-require('../../../modules/esnext.string.at');
-require('../../../modules/esnext.string.code-points');
-// TODO: remove from `core-js@4`
-require('../../../modules/esnext.string.match-all');
-require('../../../modules/esnext.string.replace-all');
+var parent = require('../../actual/typed-array');
+require('../../modules/es.map');
+require('../../modules/es.promise');
+require('../../modules/esnext.typed-array.from-async');
+// TODO: Remove from `core-js@4`
+require('../../modules/esnext.typed-array.at');
+// TODO: Remove from `core-js@4`
+require('../../modules/esnext.typed-array.filter-out');
+require('../../modules/esnext.typed-array.filter-reject');
+require('../../modules/esnext.typed-array.group-by');
+require('../../modules/esnext.typed-array.unique-by');
 
 module.exports = parent;

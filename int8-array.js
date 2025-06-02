@@ -1,2 +1,5 @@
 'use strict';
-module.exports = require('../../full/typed-array/int8-array');
+var parent = require('../../actual/typed-array/int8-array');
+require('../../full/typed-array/methods');
+
+module.exports = parent;

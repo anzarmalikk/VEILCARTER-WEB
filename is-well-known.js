@@ -1,2 +1,6 @@
 'use strict';
-module.exports = require('../../full/symbol/is-well-known');
+require('../../modules/es.symbol');
+require('../../modules/esnext.symbol.is-well-known');
+var path = require('../../internals/path');
+
+module.exports = path.Symbol.isWellKnown;
