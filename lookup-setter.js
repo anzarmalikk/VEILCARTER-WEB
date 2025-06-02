@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/object/lookup-setter');
+var parent = require('../../actual/object/lookup-setter');
+
+module.exports = parent;

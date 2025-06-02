@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/object/freeze');
+var parent = require('../../actual/object/freeze');
+
+module.exports = parent;

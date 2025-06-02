@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/number/epsilon');
+var parent = require('../../actual/number/epsilon');
+
+module.exports = parent;

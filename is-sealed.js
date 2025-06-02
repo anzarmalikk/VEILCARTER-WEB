@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/object/is-sealed');
+var parent = require('../../actual/object/is-sealed');
+
+module.exports = parent;

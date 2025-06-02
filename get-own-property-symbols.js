@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/object/get-own-property-symbols');
+var parent = require('../../actual/object/get-own-property-symbols');
+
+module.exports = parent;

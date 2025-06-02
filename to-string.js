@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../actual/error/to-string');
+var parent = require('../../actual/regexp/to-string');
 
 module.exports = parent;

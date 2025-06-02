@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/regexp/sticky');
+var parent = require('../../actual/regexp/sticky');
+
+module.exports = parent;

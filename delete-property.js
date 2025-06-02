@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/reflect/delete-property');
+var parent = require('../../actual/reflect/delete-property');
+
+module.exports = parent;

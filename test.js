@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/regexp/test');
+var parent = require('../../actual/regexp/test');
+
+module.exports = parent;

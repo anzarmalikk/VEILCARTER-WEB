@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/number/is-safe-integer');
+var parent = require('../../actual/number/is-safe-integer');
+
+module.exports = parent;

@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/reflect/is-extensible');
+var parent = require('../../actual/reflect/is-extensible');
+
+module.exports = parent;

@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/reflect/get');
+var parent = require('../../actual/reflect/get');
+
+module.exports = parent;

@@ -1,2 +1,5 @@
 'use strict';
-module.exports = require('../../full/reflect/has-metadata');
+require('../../modules/esnext.reflect.has-metadata');
+var path = require('../../internals/path');
+
+module.exports = path.Reflect.hasMetadata;

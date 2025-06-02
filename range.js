@@ -1,7 +1,6 @@
 'use strict';
 require('../../modules/es.object.to-string');
-require('../../modules/esnext.iterator.constructor');
-require('../../modules/esnext.iterator.range');
+require('../../modules/esnext.number.range');
 var path = require('../../internals/path');
 
-module.exports = path.Iterator.range;
+module.exports = path.Number.range;

@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/object/proto');
+var parent = require('../../actual/object/proto');
+
+module.exports = parent;

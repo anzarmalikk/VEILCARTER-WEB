@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/promise/with-resolvers');
+var parent = require('../../actual/promise/with-resolvers');
+
+module.exports = parent;

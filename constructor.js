@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../actual/error/constructor');
+var parent = require('../../actual/regexp/constructor');
 
 module.exports = parent;

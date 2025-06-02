@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/typed-array/set');
+var parent = require('../../actual/reflect/set');
+
+module.exports = parent;

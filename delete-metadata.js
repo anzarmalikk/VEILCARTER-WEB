@@ -1,2 +1,5 @@
 'use strict';
-module.exports = require('../../full/reflect/delete-metadata');
+require('../../modules/esnext.reflect.delete-metadata');
+var path = require('../../internals/path');
+
+module.exports = path.Reflect.deleteMetadata;

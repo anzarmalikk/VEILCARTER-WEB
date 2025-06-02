@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/promise/finally');
+var parent = require('../../actual/promise/finally');
+
+module.exports = parent;

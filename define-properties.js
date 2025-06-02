@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/object/define-properties');
+var parent = require('../../actual/object/define-properties');
+
+module.exports = parent;

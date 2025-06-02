@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/reflect/own-keys');
+var parent = require('../../actual/reflect/own-keys');
+
+module.exports = parent;

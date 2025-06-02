@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/object/define-getter');
+var parent = require('../../actual/object/define-getter');
+
+module.exports = parent;

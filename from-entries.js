@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/object/from-entries');
+var parent = require('../../actual/object/from-entries');
+
+module.exports = parent;

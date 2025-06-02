@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../actual/instance/keys');
+var parent = require('../../actual/object/keys');
 
 module.exports = parent;

@@ -1,4 +1,5 @@
 'use strict';
-var parent = require('../../actual/function/metadata');
+require('../../modules/esnext.reflect.metadata');
+var path = require('../../internals/path');
 
-module.exports = parent;
+module.exports = path.Reflect.metadata;

@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/reflect/set-prototype-of');
+var parent = require('../../actual/reflect/set-prototype-of');
+
+module.exports = parent;

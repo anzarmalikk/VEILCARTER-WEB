@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/object/is');
+var parent = require('../../actual/object/is');
+
+module.exports = parent;

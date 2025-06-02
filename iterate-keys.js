@@ -1,2 +1,5 @@
 'use strict';
-module.exports = require('../../full/object/iterate-keys');
+require('../../modules/esnext.object.iterate-keys');
+var path = require('../../internals/path');
+
+module.exports = path.Object.iterateKeys;

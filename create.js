@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/object/create');
+var parent = require('../../actual/object/create');
+
+module.exports = parent;

@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/symbol/match');
+var parent = require('../../actual/regexp/match');
+
+module.exports = parent;
