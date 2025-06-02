@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../actual/typed-array/iterator');
+var parent = require('../../actual/dom-collections/iterator');
 
 module.exports = parent;

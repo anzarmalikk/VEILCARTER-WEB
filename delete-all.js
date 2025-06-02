@@ -1,6 +1,6 @@
 'use strict';
-require('../../modules/es.set');
-require('../../modules/esnext.set.delete-all');
+require('../../modules/es.weak-set');
+require('../../modules/esnext.weak-set.delete-all');
 var entryUnbind = require('../../internals/entry-unbind');
 
-module.exports = entryUnbind('Set', 'deleteAll');
+module.exports = entryUnbind('WeakSet', 'deleteAll');
