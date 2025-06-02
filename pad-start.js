@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../../full/string/virtual/pad-start');
+var parent = require('../../actual/instance/pad-start');
+
+module.exports = parent;

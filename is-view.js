@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/array-buffer/is-view');
+var parent = require('../../actual/array-buffer/is-view');
+
+module.exports = parent;

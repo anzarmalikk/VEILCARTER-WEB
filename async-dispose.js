@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/symbol/async-dispose');
+var parent = require('../../actual/async-iterator/async-dispose');
+
+module.exports = parent;

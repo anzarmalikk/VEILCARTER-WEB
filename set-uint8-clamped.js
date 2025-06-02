@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('../../full/data-view/set-uint8-clamped');
+require('../../modules/esnext.data-view.set-uint8-clamped');

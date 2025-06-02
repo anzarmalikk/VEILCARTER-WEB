@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../../full/string/virtual/trim');
+var parent = require('../../actual/instance/trim');
+
+module.exports = parent;

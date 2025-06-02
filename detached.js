@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/array-buffer/detached');
+var parent = require('../../actual/array-buffer/detached');
+
+module.exports = parent;

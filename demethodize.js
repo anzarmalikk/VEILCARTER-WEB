@@ -1,2 +1,5 @@
 'use strict';
-module.exports = require('../../full/instance/demethodize');
+require('../../../modules/esnext.function.demethodize');
+var getBuiltInPrototypeMethod = require('../../../internals/get-built-in-prototype-method');
+
+module.exports = getBuiltInPrototypeMethod('Function', 'demethodize');

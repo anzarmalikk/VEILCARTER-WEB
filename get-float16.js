@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/data-view/get-float16');
+var parent = require('../../actual/data-view/get-float16');
+
+module.exports = parent;

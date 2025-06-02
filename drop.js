@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/iterator/drop');
+var parent = require('../../actual/async-iterator/drop');
+
+module.exports = parent;

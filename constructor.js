@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/disposable-stack/constructor');
+var parent = require('../../actual/error/constructor');
+
+module.exports = parent;

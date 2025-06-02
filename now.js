@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/date/now');
+var parent = require('../../actual/date/now');
+
+module.exports = parent;

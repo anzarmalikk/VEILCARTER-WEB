@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/typed-array/to-string');
+var parent = require('../../actual/error/to-string');
+
+module.exports = parent;

@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/array-buffer/transfer');
+var parent = require('../../actual/array-buffer/transfer');
+
+module.exports = parent;

@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../../actual/array/virtual/map');
+var parent = require('../../actual/instance/map');
 
 module.exports = parent;

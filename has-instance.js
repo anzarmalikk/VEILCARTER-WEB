@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/symbol/has-instance');
+var parent = require('../../actual/function/has-instance');
+
+module.exports = parent;

@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/date/to-iso-string');
+var parent = require('../../actual/date/to-iso-string');
+
+module.exports = parent;

@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../../full/string/virtual/repeat');
+var parent = require('../../actual/instance/repeat');
+
+module.exports = parent;

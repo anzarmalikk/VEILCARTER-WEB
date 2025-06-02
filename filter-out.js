@@ -1,6 +1,11 @@
 'use strict';
 // TODO: Remove from `core-js@4`
-require('../../../modules/esnext.array.filter-out');
-var getBuiltInPrototypeMethod = require('../../../internals/get-built-in-prototype-method');
+var isPrototypeOf = require('../../internals/object-is-prototype-of');
+var method = require('../array/virtual/filter-out');
 
-module.exports = getBuiltInPrototypeMethod('Array', 'filterOut');
+var ArrayPrototype = Array.prototype;
+
+module.exports = function (it) {
+  var own = it.filterOut;
+  return it === ArrayPrototype || (isPrototypeOf(ArrayPrototype, it) && own === ArrayPrototype.filterOut) ? method : own;
+};

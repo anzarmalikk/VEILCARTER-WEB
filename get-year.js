@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/date/get-year');
+var parent = require('../../actual/date/get-year');
+
+module.exports = parent;

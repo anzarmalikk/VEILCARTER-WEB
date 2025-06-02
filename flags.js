@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/regexp/flags');
+var parent = require('../../actual/instance/flags');
+
+module.exports = parent;

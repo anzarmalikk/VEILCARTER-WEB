@@ -1,5 +1,10 @@
 'use strict';
-require('../../../modules/esnext.array.filter-reject');
-var getBuiltInPrototypeMethod = require('../../../internals/get-built-in-prototype-method');
+var isPrototypeOf = require('../../internals/object-is-prototype-of');
+var method = require('../array/virtual/filter-reject');
 
-module.exports = getBuiltInPrototypeMethod('Array', 'filterReject');
+var ArrayPrototype = Array.prototype;
+
+module.exports = function (it) {
+  var own = it.filterReject;
+  return it === ArrayPrototype || (isPrototypeOf(ArrayPrototype, it) && own === ArrayPrototype.filterReject) ? method : own;
+};

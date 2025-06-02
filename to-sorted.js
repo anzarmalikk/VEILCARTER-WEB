@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../../actual/array/virtual/to-sorted');
+var parent = require('../../actual/instance/to-sorted');
 
 module.exports = parent;

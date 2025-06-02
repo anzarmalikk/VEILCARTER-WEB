@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../../actual/array/virtual/to-reversed');
+var parent = require('../../actual/instance/to-reversed');
 
 module.exports = parent;

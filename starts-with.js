@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../../full/string/virtual/starts-with');
+var parent = require('../../actual/instance/starts-with');
+
+module.exports = parent;

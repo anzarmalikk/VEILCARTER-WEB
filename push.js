@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../../actual/array/virtual/push');
+var parent = require('../../actual/instance/push');
 
 module.exports = parent;

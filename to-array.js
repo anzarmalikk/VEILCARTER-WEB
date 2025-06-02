@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/iterator/to-array');
+var parent = require('../../actual/async-iterator/to-array');
+
+module.exports = parent;

@@ -1,6 +1,10 @@
 'use strict';
-require('../../../modules/es.map');
-require('../../../modules/esnext.array.unique-by');
-var getBuiltInPrototypeMethod = require('../../../internals/get-built-in-prototype-method');
+var isPrototypeOf = require('../../internals/object-is-prototype-of');
+var method = require('../array/virtual/unique-by');
 
-module.exports = getBuiltInPrototypeMethod('Array', 'uniqueBy');
+var ArrayPrototype = Array.prototype;
+
+module.exports = function (it) {
+  var own = it.uniqueBy;
+  return it === ArrayPrototype || (isPrototypeOf(ArrayPrototype, it) && own === ArrayPrototype.uniqueBy) ? method : own;
+};

@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../../actual/array/virtual/find-last');
+var parent = require('../../actual/instance/find-last');
 
 module.exports = parent;

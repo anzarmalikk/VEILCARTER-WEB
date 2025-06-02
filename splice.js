@@ -1,4 +1,4 @@
 'use strict';
-var parent = require('../../../actual/array/virtual/splice');
+var parent = require('../../actual/instance/splice');
 
 module.exports = parent;

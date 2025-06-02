@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('../../full/symbol/to-primitive');
+var parent = require('../../actual/date/to-primitive');
+
+module.exports = parent;
